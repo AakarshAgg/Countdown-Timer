@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>
+        SCHEDULER
+    </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Countdown form-->
+    <div class="form-area">
+        <form id="counter-form">
+            <div>
+                <label for="counter-title">Enter Countdown title:</label>
+                <input type="text" name="title" id="counter-title" placeholder="What you are counting for?">
+            </div>
+            <div>
+                <label for="counter-date">Pick a date:</label>
+                <input type="date" name="date-picker" id="counter-date">
+            </div>
+            <div>
+                <label for="time-picker">Select a time:</label>
+                <input type="time" id="counter-time" name="time-picker">
+
+</body>
+
+</html>
+</div>
+<button type="submit">Submit</button>
+</form>
+</div>
+
+<!--Main Counter-->
+<div class="counter" id="counter" hidden>
+    <h1 id="ct">Counter Title</h1>
+    <ul>
+        <li><span>3</span>Days</li>
+        <li><span>6</span>Hours</li>
+        <li><span>12</span>Minutes</li>
+        <li><span>23</span>Seconds</li>
+    </ul>
+    <button type="reset" id="counter-reset">Reset</button>
+</div>
+
+<!--Complete screen-->
+<div class="complete" id="complete" hidden>
+    <h1 class="complete-title">Counter Completed!</h1>
+    <h1 id="complete-info">Countdown finished on 27-07-2022</h1>
+    <button id="complete-button">New Countdown</button>
+</div>
+<script src="script.js" async defer></script>
+</body>
+
+</html>
